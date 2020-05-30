@@ -15,7 +15,7 @@ class Dice
   end
 
   def score
-
+    @store.sum
   end
 
 end

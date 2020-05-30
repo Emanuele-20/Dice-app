@@ -28,9 +28,16 @@ describe "Dice_app" do
     d1.roll
     expect(d1.store).to eq([5])
   end
-  it "Player can check the total amount of score" do
+  it "New instance of Dice respond to a score method" do
     expect(d1).to respond_to(:score)
   end
+  it "Visualize the Player score" do
+    allow(d1).to receive(:random_number).and_return(5)
+    d1.roll
+    expect(d1.score).to eq(5)
+  end
+
+
 
 
 
