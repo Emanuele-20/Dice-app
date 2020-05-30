@@ -16,7 +16,7 @@ those two folders.
 
 Let's initilize my folder first and commit my steps:
 
-*  commit -m "first commit" , I repeat this command for each important
+* Commit -m "first commit" , I repeat this command for each important
 step.
 
 * Git remote add origin git@github.com:Emanuele-20/Dice-app.git for create
@@ -27,3 +27,5 @@ a link between my folders.
 
 I create a dice_app_spec.rb inside my spec folder, and a dice_app.rb
 inside my lib folder.
+
+Now, trough the stories let's try to set up our program.
