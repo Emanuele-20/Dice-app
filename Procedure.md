@@ -23,3 +23,13 @@
 * As a board game player,
 * So that I know what my score is after I have rolled several dice
 * I want to be able to get my current score
+
+
+*  From user stories to Domain model
+We take the user story, what the program is suppose to do from the user’s point of view.
+We have to translate the users stories into a functional system and in OOP this system is made up from Objects and  Messages.
+Objects describe the objects in the system.
+Messages describe how those objects interact.
+
+Objects	(nouns) - class	    |     Messages (verbs) - method
+Dice                              #roll
