@@ -1,4 +1,4 @@
-class Dice 
+class Dice
 
   attr_accessor :store # now is possible to use in rspec
 
@@ -12,6 +12,10 @@ class Dice
 
   def random_number
     rand(1..6)
+  end
+
+  def score
+
   end
 
 end
